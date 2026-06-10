@@ -1,12 +1,12 @@
 # OverTheWire: Bandit — Level 0 → Level 1
 
-> **Skills:** `ssh`, terminal basics  
-> **Difficulty:** Beginner  
+> **Skills:** `ssh`, terminal basics
+> **Difficulty:** Beginner
 > **Official Page:** [bandit0](https://overthewire.org/wargames/bandit/bandit0.html)
 
 ---
 
-##  About This Walkthrough
+## About This Walkthrough
 
 [OverTheWire](https://overthewire.org/wargames/) is a free platform to learn and practice security concepts through hands-on wargames. [Bandit](https://overthewire.org/wargames/bandit/) is the recommended starting point — it covers the Linux and Git fundamentals you'll need for every other game on the platform.
 
@@ -16,16 +16,16 @@ This walkthrough is written to be beginner-friendly, with enough theory to under
 
 ---
 
-##  Task
+## Task
 
 Log into the game server using SSH.
 
-| Field    | Value                                |
-|----------|--------------------------------------|
-| Host     | `bandit.labs.overthewire.org`        |
-| Port     | `2220`                               |
-| Username | `bandit0`                            |
-| Password | `bandit0`                            |
+| Field    | Value                         |
+| -------- | ----------------------------- |
+| Host     | `bandit.labs.overthewire.org` |
+| Port     | `2220`                        |
+| Username | `bandit0`                     |
+| Password | `bandit0`                     |
 
 ---
 
@@ -43,13 +43,15 @@ Think of a server as an office building. The IP address gets you to the right bu
 
 ### How to Use SSH
 
-**On Linux/macOS:** Use the terminal directly with the `ssh` command.  
+**On Linux/macOS:** Use the terminal directly with the `ssh` command.
 **On Windows:** Use a terminal (Windows 11 has one built-in) or a tool like [PuTTY](https://www.putty.org/) if you're on an older version.
 
 Want to explore SSH further? Run:
+
 ```bash
 man ssh
 ```
+
 This opens the full manual for the `ssh` command — a habit worth building for any Linux tool you use.
 
 ---
@@ -78,13 +80,13 @@ ssh bandit0@bandit.labs.overthewire.org -p 2220
 
 Run the command in your terminal. You'll first see a prompt asking for the password:
 
-```
+```text
 bandit0@bandit.labs.overthewire.org's password:
 ```
 
 Type `bandit0` and press **Enter**.
 
->  On Linux/macOS, nothing will appear as you type the password — no dots, no asterisks. That's normal behavior. Just type it and hit Enter.
+> On Linux/macOS, nothing will appear as you type the password — no dots, no asterisks. That's normal behavior. Just type it and hit Enter.
 
 ---
 
@@ -92,7 +94,7 @@ Type `bandit0` and press **Enter**.
 
 If the password is correct, you'll see a welcome banner similar to this:
 
-```
+```text
       ,----..            ,----,          .---.
      /   /   \         ,/   .`|         /. ./|
     /   .     :      ,`   .'  :     .--'.  ' ;
@@ -116,7 +118,7 @@ You're now logged in as `bandit0`. The task for Level 0 was simply to connect �
 
 ---
 
-##  Next Step
+## Next Step
 
 Once you're logged in, you're ready for **Level 1**. The password for Level 1 is found inside a file in the home directory — that's the actual challenge of the next level.
 
@@ -126,16 +128,16 @@ Once you're logged in, you're ready for **Level 1**. The password for Level 1 is
 
 ## Key Takeaways
 
-- SSH is the standard way to access remote Linux machines — you'll use it in every level.
-- Ports matter. Default SSH = port 22. Always check if a service uses a non-standard port.
-- When a password field shows nothing as you type, that's intentional — type normally and press Enter.
+* SSH is the standard way to access remote Linux machines — you'll use it in every level.
+* Ports matter. Default SSH = port 22. Always check if a service uses a non-standard port.
+* When a password field shows nothing as you type, that's intentional — type normally and press Enter.
 
 ---
 
-##  Common Mistakes
+## Common Mistakes
 
-| Mistake | What Happens | Fix |
-|--------|--------------|-----|
-| Forgetting `-p 2220` | `Connection refused` error | Always include `-p 2220` for OTW |
-| Typing password wrong | `Permission denied` | Re-run the command and retype carefully |
-| Expecting password echo | Looks like nothing is being typed | Normal — just type and press Enter |
+| Mistake                 | What Happens                      | Fix                                     |
+| ----------------------- | --------------------------------- | --------------------------------------- |
+| Forgetting `-p 2220`    | `Connection refused` error        | Always include `-p 2220` for OTW        |
+| Typing password wrong   | `Permission denied`               | Re-run the command and retype carefully |
+| Expecting password echo | Looks like nothing is being typed | Normal — just type and press Enter      |
