@@ -1,6 +1,6 @@
 # OverTheWire: Bandit — Level 1 → Level 2
 
-> **Skills:** handling special character filenames, understanding `./`, stdin vs file arguments  
+> **Skills:** Handling special character filenames, understanding `./`, stdin vs file arguments  
 > **Difficulty:** Beginner  
 > **Official Page:** [bandit2](https://overthewire.org/wargames/bandit/bandit2.html)
 
