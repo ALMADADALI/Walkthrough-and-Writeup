@@ -1,7 +1,7 @@
 # OverTheWire: Bandit — Level 2 → Level 3
 
-> **Skills:** Handling filenames with spaces, shell quoting, tab-completion
-> **Difficulty:** Beginner
+> **Skills:** Handling filenames with spaces, shell quoting, tab-completion                        
+> **Difficulty:** Beginner                                                              
 > **Official Page:** [Bandit Level 2 → Level 3](https://overthewire.org/wargames/bandit/bandit3.html)
 
 ---
