@@ -1,7 +1,7 @@
 # OverTheWire: Bandit — Level 0 
 
-> **Skills:** `ssh`, terminal basics
-> **Difficulty:** Beginner
+> **Skills:** `ssh`, terminal basics                                          
+> **Difficulty:** Beginner                                                                
 > **Official Page:** [bandit0](https://overthewire.org/wargames/bandit/bandit0.html)
 
 ---
