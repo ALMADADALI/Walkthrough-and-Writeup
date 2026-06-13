@@ -1,6 +1,8 @@
 # OverTheWire: Bandit — Level 11 → Level 12
 
-> Skills: ROT13 / substitution ciphers, `tr` command | Difficulty: Easy | Official Page: [Bandit Level 11](https://overthewire.org/wargames/bandit/bandit12.html)
+> Skills: ROT13 / substitution ciphers, `tr` command                               
+> Difficulty: Easy                                           
+> Official Page: [Bandit Level 11](https://overthewire.org/wargames/bandit/bandit12.html)
 
 ## Login
 
