@@ -49,7 +49,6 @@
   Machine_IP    jeff.thm
   Machine_IP    wordpress.jeff.thm
   ```
-- Archive password for the room's appendix ZIP: `1 kn0w 1 5h0uldn'7!`
 
 ---
 
