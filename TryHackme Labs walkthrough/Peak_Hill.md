@@ -49,8 +49,6 @@
 - `uncompyle6` (`pip install uncompyle6`)
 - Netcat (`nc`)
 - CyberChef (browser-based, no install required)
-- Archive password: `1 kn0w 1 5h0uldn'7!`
-
 ---
 
 ## [Task 1] — Peak Hill
