@@ -15,7 +15,7 @@
 
 **SSH details for Level 1 (obtained after solving this level):**
 - Host: `krypton.labs.overthewire.org`
-- Port: `2222`
+- Port: `2231`
 - Username: `krypton1`
 - Password: *decode the string below to obtain it*
 
