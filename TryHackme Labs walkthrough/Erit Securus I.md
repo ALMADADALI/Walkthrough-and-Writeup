@@ -49,8 +49,6 @@ By the end of this room you will be able to:
 - John the Ripper with the rockyou wordlist (or another password list)
 - SQLite3 client
 - Familiarity with GTFOBins for sudo/binary privilege escalation lookups
-- Archive password (if required by the room download): `1 kn0w 1 5h0uldn'7!`
-
 ---
 
 ## Tasks and Steps
